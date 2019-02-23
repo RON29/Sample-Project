@@ -8,7 +8,8 @@ public class SampleProject {
 		return c;
 	}
 	public static int add(int a,int b) {
-		int c = a+b;
+		int c = a+b+1;
+		c--;
 		return c;
 	}
 	public static void main(String args[]) {
